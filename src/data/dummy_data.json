@@ -366,12 +366,6 @@
           "data_value": 0.38
         }
       ]
-    },
-    {"title": "Chart 2",
-      "y_title": "Battery Remaining",
-      "y_format": ".1%",
-      "axis_y_format": ".0%",
-      "colour": "green",
-      "data": []}
+    }
   ]
 }
