@@ -1,0 +1,371 @@
+{
+  "x_axis_title": "Date of ???",
+  "title": "Exciting Line Chart",
+  "is_brushable": true,
+  "is_zoomable": true,
+  "is_stacked": true,
+  "cursor_type": "single",
+  "key_timeslots": [
+    {
+      "from": "2019-12-07 09:12:13",
+      "to": "2019-12-07 13:12:13",
+      "title": "unusual spike in something for 5 hour period"
+    }
+  ],
+  "line_charts": [
+    {
+      "title": "Chart 1",
+      "y_title": "State of Charge",
+      "y_format": ".1f",
+      "axis_y_format": ".0f",
+      "colour": "red",
+      "data": [
+        {
+          "timestamp_recorded": "2019-12-05 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 535.4
+        },
+        {
+          "timestamp_recorded": "2019-12-06 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 235.4
+        },
+        {
+          "timestamp_recorded": "2019-12-07 11:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 135.4
+        },
+        {
+          "timestamp_recorded": "2019-12-07 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 135.4
+        },
+        {
+          "timestamp_recorded": "2019-12-08 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 435.4
+        },
+        {
+          "timestamp_recorded": "2019-12-10 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 335.4
+        },
+        {
+          "timestamp_recorded": "2019-12-11 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 535.4
+        },
+        {
+          "timestamp_recorded": "2019-12-12 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 565.4
+        },
+        {
+          "timestamp_recorded": "2019-12-13 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 135.4
+        },
+        {
+          "timestamp_recorded": "2019-12-14 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 95.4
+        },
+        {
+          "timestamp_recorded": "2019-12-15 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 135.4
+        },
+        {
+          "timestamp_recorded": "2019-12-16 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 95.4
+        },
+        {
+          "timestamp_recorded": "2019-12-17 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 505.4
+        },
+        {
+          "timestamp_recorded": "2019-12-18 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 205.4
+        },
+        {
+          "timestamp_recorded": "2019-12-19 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 155.4
+        },
+        {
+          "timestamp_recorded": "2019-12-20 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 222.4
+        },
+        {
+          "timestamp_recorded": "2019-12-21 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 11.4
+        },
+        {
+          "timestamp_recorded": "2019-12-23 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 888.4
+        },
+        {
+          "timestamp_recorded": "2019-12-24 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 555.4
+        },
+        {
+          "timestamp_recorded": "2019-12-25 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 33.4
+        },
+        {
+          "timestamp_recorded": "2019-12-26 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 777.4
+        },
+        {
+          "timestamp_recorded": "2019-12-27 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 111.4
+        },
+        {
+          "timestamp_recorded": "2020-01-01 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 44.4
+        },
+        {
+          "timestamp_recorded": "2020-01-02 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 888.4
+        },
+        {
+          "timestamp_recorded": "2020-01-03 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 85.4
+        }
+      ]
+    },
+    {
+      "title": "Chart 2",
+      "y_title": "Battery Remaining",
+      "y_format": ".1%",
+      "axis_y_format": ".0%",
+      "colour": "green",
+      "data": [
+        {
+          "timestamp_recorded": "2019-12-05 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.24
+        },
+        {
+          "timestamp_recorded": "2019-12-06 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.23
+        },
+        {
+          "timestamp_recorded": "2019-12-07 11:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.13
+        },
+        {
+          "timestamp_recorded": "2019-12-07 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.13
+        },
+        {
+          "timestamp_recorded": "2019-12-08 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.43
+        },
+        {
+          "timestamp_recorded": "2019-12-09 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.23
+        },
+        {
+          "timestamp_recorded": "2019-12-10 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.33
+        },
+        {
+          "timestamp_recorded": "2019-12-11 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.53
+        },
+        {
+          "timestamp_recorded": "2019-12-12 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.56
+        },
+        {
+          "timestamp_recorded": "2019-12-13 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.13
+        },
+        {
+          "timestamp_recorded": "2019-12-14 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.95
+        },
+        {
+          "timestamp_recorded": "2019-12-15 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.13
+        },
+        {
+          "timestamp_recorded": "2019-12-16 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.59
+        },
+        {
+          "timestamp_recorded": "2019-12-17 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.5
+        },
+        {
+          "timestamp_recorded": "2019-12-18 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.2
+        },
+        {
+          "timestamp_recorded": "2019-12-19 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.15
+        },
+        {
+          "timestamp_recorded": "2019-12-20 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.22
+        },
+        {
+          "timestamp_recorded": "2019-12-21 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.11
+        },
+        {
+          "timestamp_recorded": "2019-12-22 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.99
+        },
+        {
+          "timestamp_recorded": "2019-12-23 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.88
+        },
+        {
+          "timestamp_recorded": "2019-12-24 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.55
+        },
+        {
+          "timestamp_recorded": "2019-12-25 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.33
+        },
+        {
+          "timestamp_recorded": "2019-12-26 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.77
+        },
+        {
+          "timestamp_recorded": "2019-12-27 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.11
+        },
+        {
+          "timestamp_recorded": "2019-12-28 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.22
+        },
+        {
+          "timestamp_recorded": "2019-12-29 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.33
+        },
+        {
+          "timestamp_recorded": "2019-12-30 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.99
+        },
+        {
+          "timestamp_recorded": "2019-12-31 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.66
+        },
+        {
+          "timestamp_recorded": "2020-01-01 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.44
+        },
+        {
+          "timestamp_recorded": "2020-01-02 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.88
+        },
+        {
+          "timestamp_recorded": "2020-01-03 21:12:13",
+          "product_sn_id": 1,
+          "signal_id": 1,
+          "data_value": 0.38
+        }
+      ]
+    }
+  ]
+}

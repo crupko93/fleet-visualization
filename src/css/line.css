@@ -1,0 +1,130 @@
+body {
+    font-family: Roboto;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+#line_div {
+    width: 100vw;
+    height: calc(95vh - 10px);
+}
+
+.axis line,
+.axis path {
+    display: none;
+}
+
+.axis text {
+    fill: #a0a0a0;
+    font-size: 12px;
+}
+
+.axis_all path,
+.axis_all line {
+    display: none;
+}
+
+.axis_all text {
+    fill: #333333;
+    font-size: 12px;
+}
+
+.axis_grid path {
+    display: none;
+}
+
+.axis_grid text {
+    display: none;
+}
+.axis_grid line {
+    stroke: #f0f0f0;
+    pointer-events: none;
+}
+
+.title {
+    text-anchor: start;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.axis_title {
+    text-anchor: middle;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.zoom_rect {
+    cursor: move;
+    fill: #d0d0d0;
+    fill-opacity: 0.2;
+    pointer-events: all;
+}
+
+.normal_brush .handle {
+    fill: dimgrey;
+    rx: 3;
+    ry: 3;
+}
+
+.normal_brush .overlay {
+    fill: #a0a0a0;
+    fill-opacity: 0.2;
+}
+
+.normal_brush .selection {
+    fill: #a0a0a0;
+}
+
+.cursor_brush .handle {
+    fill: #a0a0a0;
+    width: 3px;
+}
+
+.cursor_brush .selection {
+    fill: gold;
+    fill-opacity: 0.15;
+}
+
+.mouseover_path {
+    stroke: dimgrey;
+    stroke-width: 1;
+    visibility: hidden;
+    pointer-events: none;
+    stroke-dasharray: 2, 2;
+}
+
+.mouseover_rect {
+    fill: white;
+    visibility: hidden;
+}
+
+.mouseover_text {
+    visibility: hidden;
+    fill: #333333;
+    font-size: 12px;
+    text-anchor: middle;
+}
+
+.cursor_rect {
+    display: none;
+    fill: #a0a0a0;
+    fill-opacity: 0.4;
+    width: 5px;
+    rx: 2;
+    ry: 2;
+}
+
+.cursor_text_middle {
+    text-anchor: middle;
+}
+
+.cursor_text_right {
+    text-anchor: end;
+}
+
+.cursor_values{
+    text-anchor: end;
+    font-size: 12px;
+}
