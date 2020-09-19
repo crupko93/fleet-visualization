@@ -471,6 +471,9 @@ class LineChart extends Component {
         svg
           .append("rect")
           .attr("class", "cursor_rect cursor_rect_1" + my_class);
+        svg
+            .append("rect")
+            .attr("class", "cursor_rect cursor_rect_1y" + my_class);
       }
       //set non-data dep properties in order
 
@@ -549,6 +552,12 @@ class LineChart extends Component {
         d3.select(".cursor_rect_1" + my_class)
           .style("display", "block")
           .attr("height", height)
+          .attr("transform", "translate(" + start_x + "," + start_y + ")");
+
+        d3.select(".cursor_rect_1y" + my_class)
+          .style("display", "none")
+          .attr("height", 5)
+          .style("width", width)
           .attr("transform", "translate(" + start_x + "," + start_y + ")");
 
         d3.selectAll(".cursor_text").style("display", "none");
@@ -810,30 +819,47 @@ class LineChart extends Component {
       d3.select(".cursor_rect_1" + my_class)
         .on("mouseover", function () {
           d3.select(this).attr("cursor", "grab");
+          d3.select(".cursor_rect_1y" + my_class).style("display", "block");
+
         })
         .call(
           d3
             .drag()
             .on("start", function () {
               d3.select(this).attr("cursor", "grabbing");
+              d3.select(".cursor_rect_1y" + my_class).style("display", "block");
+
             })
             .on("drag end", function () {
               var my_x = d3.event.sourceEvent.offsetX - start_x - 4;
+              var my_y = d3.event.sourceEvent.offsetY;
+
               if (my_x < 0) {
                 my_x = 0;
               }
               if (my_x > x_scale_all.range()[1]) {
                 my_x = x_scale_all.range()[1];
               }
+
+
               if (cursor_type === "single") {
                 d3.select(this).attr("x", my_x);
+                d3.select(".cursor_rect_1y").attr("y", my_y);
                 line_props.cursor_position = my_x;
+                //***************************************
+                d3.select(".cursor_rect_1y" + my_class)
+                  .style("display", "block")
+                  .attr("height", 5)
+                  .style("width", width)
+                  .attr("transform", "translate(" + start_x + "," + my_y + ")");
+                //****************************************
                 reset_line_props_state();
                 // find nearest from drag
                 find_nearest_point(my_x, my_class);
               }
             })
         );
+
 
       if (is_brushable === true) {
         var x_range = [

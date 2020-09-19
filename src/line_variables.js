@@ -246,6 +246,7 @@ function line_chart() {
 
       });
       svg.append("rect").attr("class", "cursor_rect cursor_rect_1" + my_class);
+      svg.append("rect").attr("class", "cursor_rect cursor_rect_1y" + my_class);
     }
     //set non-data dep properties in order
 
@@ -299,6 +300,11 @@ function line_chart() {
     //set visibility depending on selected cursor type
     if (cursor_type === "single") {
       d3.select(".cursor_rect_1" + my_class)
+        .style("display", "block")
+        .attr("height", height)
+        .attr("transform", "translate(" + start_x + "," + start_y + ")");
+
+      d3.select(".cursor_rect_1y" + my_class)
         .style("display", "block")
         .attr("height", height)
         .attr("transform", "translate(" + start_x + "," + start_y + ")");
